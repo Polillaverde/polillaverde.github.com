@@ -2,43 +2,74 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=divice-width,user-scalable=no">
-    <title>Hoja de Vida</title>
+    <meta name="author" content="Hans Petit">
+    <meta name="description" content="Comenzando con la Fotografía">
+    <meta name="viewport" content="width=device-width">
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Comenzando con la Fotografía</title>
   </head>
   <body>
-    <svg width="800px" heigth="150px" viewBox="0 0 800 150">
-     <image width="800px" heigth="800px" xlink:href=img/HP.svg></image>
-     <h1>Curriculum Vitae.</h1>
-     <h2>Hans Boris Petit Rubio.</h2>
-     <h3>Fecha de Nacimiento: 20 de Julio de 1983.</h3>
-     <h3>Lugar de Nacimiento: Buin-Santiago de Chile.</h3>
-     <nav>
-       <ul>
-         <li><a href="index.html">Inicio</a></li>
-         <li><a href="Educacion.html">Educacion</a></li>
-         <li><a href="Experiencia.html">Experiencia</a></li>
-       </ul>
-     </nav>
-     <h2>Informacion Personal</h2>
-     <img src="img/photo_HP.png" alt="imagen " title="imagen photo_HP" width="130px" height="150px">
-     <h2>Perfil</h2>
-     <p>Soy una persona la cual cuenta con una basta experiencia laboral, desempeñandome en distintas
-      areas técnicas y profesionales, titulado de <strong>Técnico de Nivel Superior en Administración de Empresas Mensión Finanzas.</strong>
-      Poseo una basta experiencia en <em>Seguridad Pública y Privada</em>,<strong>"10 años en Carabineros
-      de Chile"</strong>, poseo conocimintos en reparacion, arme y desarme de
-      de computadores y celulares. tambien me he desempeñado como asistente técnico
-      en el area de la mineria. Soy una persona proactiva que gusta el trabajo en equipo, el cual se esmera por el cumplimiento
-       de los objetivos, principalmente empático y muy colaborador con sus pares superiores y sub-alternos</p>
-      <h2>Idiomas</h2>
-      <ul>
-        <li>Español</li>
-        <li>Ingles</li>
-      </ul>
+    <div class="contenido">
+      <header class="cabecera">
+        Comenzando con la Fotografía
+        <nav>
+          <a href="#" class="actual">Inicio</a>
+          <a href="html/paisajes.html">Paisajes</a>
+          <a href="html/retratos.html">Retratos</a>
+        </nav>
+      </header>
+      <section>
+        <article class="principal">
+          <img id="img_ppal" src="images/paris.jpg" alt="Imagen Principal" title="Imagen Principal">
+        </article>
+        <article class="secundaria">
+          <div id="img_left">
+            <a href="html/paisajes.html">
+              <figure>
+                <img src="images/paisaje.jpg" alt="Imagen Secundaria Izquierda" title="Imagen Secundaria Izquierda">
+                <figcaption>Paisajes</figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="img_right">
+            <a href="html/retratos.html">
+              <figure>
+                <img src="images/retrato.jpg" alt="Imagen Secundaria Derecha" title="Imagen Secundaria Derecha">
+                <figcaption>Retratos</figcaption>
+              </figure>
+            </a>
+          </div>
+        </article>
+      </section>
+      <footer class="pie_de_pagina">
+        <div id="col1">
+          <h2>Contacto</h2><br>
+          <a href="mailto:Hanspetit1983@gmail.com" >Hanspetit1983@gmail.column</a> <br>
+          Amador Sanchez Valenzuela 75 Buin-Santiago de Chile.<br>
+          Teléfono: +56-942097013
+        </div>
+        <div id="col2">
+          <h2>Términos</h2><br>
+          Conoce nuestros términos y condiciones.
+        </div>
+        <div id="col3">
+          <h2>Redes Sociales</h2><br>
+          Comparte en nuestras redes <br>
+          <img class="icons" src="images/face.svg" alt="fb icon" title="fb icon">
+          Face-Fotografía <br>
+          <img class="icons" src="images/tw.png" alt="tw icon" title="tw icon">
+          Tw-Fotografía <br>
+          <img class="icons" src="images/inst.png" alt="ig icon" title="ig icon">
+          Inst-Fotografía <br>
+        </div>
+        <div id="col4">
+          <h2>Derechos</h2><br>
+          Hans-Petit® Copyright - 2018
+        </div>
+      </footer>
+    </div>
   </body>
-  <foot>
-    <h3>Contacto</h3>
-    <p><strong>Telefono: </strong>celular: +56942097013</p>
-    <p><strong>Email: <a href="mailto:direccion@correo.com">Hanspetit1983@gmail.com</a>
-    <p><strong>Direccion: </strong>Amador Sanchez Valenzuela # 75 Lo Salinas Buin-Maipo. Santiago de Chile</p>
-  </foot>
 </html>
